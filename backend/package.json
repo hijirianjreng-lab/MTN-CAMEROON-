@@ -1,0 +1,33 @@
+{
+  "name": "mtn-momo-cameroon-loans",
+  "version": "1.0.0",
+  "description": "MTN MoMo Cameroon loan application system with Telegram admin bot",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js",
+    "set-webhook": "node scripts/set-webhook.js"
+  },
+  "keywords": [
+    "mtn",
+    "momo",
+    "cameroon",
+    "loans",
+    "telegram",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
